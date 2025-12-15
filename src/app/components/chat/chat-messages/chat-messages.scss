@@ -1,6 +1,14 @@
-.chat-messages {
+:host {
+  display: block;
   flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.chat-messages {
+  height: 100%;
   overflow-y: auto;
+  overflow-x: hidden;
   padding: 12px 8px;
   display: flex;
   flex-direction: column;

@@ -24,6 +24,7 @@
               "base": "docs",
               "browser": ""
             },
+            "baseHref": "/askBuz/",
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",

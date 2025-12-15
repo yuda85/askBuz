@@ -1,8 +1,14 @@
+:host {
+  display: block;
+  flex-shrink: 0;
+}
+
 .chat-input-container {
   display: flex;
   align-items: center;
   gap: 8px;
   padding: 12px;
+  padding-bottom: max(12px, env(safe-area-inset-bottom));
   background: var(--buz-bg-header);
   border-top: 1px solid var(--buz-border-color);
 }
