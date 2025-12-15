@@ -1,11 +1,5 @@
-<div class="chat-widget-wrapper">
-  @if (isOpen()) {
-    <div class="chat-widget" @chatAnimation>
-      <app-chat-header (close)="closeChat()" />
-      <app-chat-messages />
-      <app-chat-input (messageSent)="onMessageSent($event)" />
-    </div>
-  }
-
-  <app-chat-toggle [isOpen]="isOpen()" (toggle)="toggleChat()" />
+<div class="chat-widget">
+  <app-chat-header />
+  <app-chat-messages />
+  <app-chat-input (messageSent)="onMessageSent($event)" />
 </div>

@@ -1,4 +1,5 @@
-import { Component, output } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { ChatService } from '../../../services/chat.service';
 
 @Component({
   selector: 'app-chat-header',
@@ -7,9 +8,9 @@ import { Component, output } from '@angular/core';
   styleUrl: './chat-header.scss',
 })
 export class ChatHeaderComponent {
-  close = output<void>();
+  private readonly chatService = inject(ChatService);
 
-  onClose(): void {
-    this.close.emit();
+  onClearChat(): void {
+    this.chatService.clearHistory();
   }
 }

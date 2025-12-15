@@ -41,7 +41,7 @@
   font-size: var(--buz-font-size-small);
 }
 
-.close-button {
+.clear-button {
   width: 36px;
   height: 36px;
   border: none;
@@ -56,6 +56,10 @@
 
   &:hover {
     background: var(--buz-bg-input);
-    color: var(--buz-text-primary);
+    color: #ff6b6b;
+  }
+
+  &:active {
+    transform: scale(0.95);
   }
 }

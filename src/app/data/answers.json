@@ -57,6 +57,58 @@
       "messages": ["תלוי במזל שלך."]
     },
     {
+      "type": "single",
+      "messages": ["ניסית לא להיות הומו?"]
+    },
+    {
+      "type": "single",
+      "messages": ["למה שלא תשאל אם תהיה מלחמה וזהו"]
+    },
+    {
+      "type": "single",
+      "messages": ["דבר עם נריה"]
+    },
+    {
+      "type": "single",
+      "messages": ["דבר עם המפקד שלי"]
+    },
+    {
+      "type": "single",
+      "messages": ["אני מצטער אני לא פנוי לזה כרגע"]
+    },
+    {
+      "type": "single",
+      "messages": ["זה טוב..."]
+    },
+    {
+      "type": "single",
+      "messages": ["זה טוב זה..."]
+    },
+    {
+      "type": "single",
+      "messages": ["משובח"]
+    },
+    {
+      "type": "single",
+      "messages": ["כן אני זוכר את הפיצה בחורפיש"]
+    },
+    {
+      "type": "single",
+      "messages": ["זה שאתה פרנואיד לא אומר שלא רודפים אחריך"]
+    },
+    {
+      "type": "single",
+      "messages": ["בן אדם שישן עם מצ'טה.. טוב אתה יודע את השאר"]
+    },
+    {
+      "type": "single",
+      "messages": ["כולם משתינים בבריכה"]
+    },
+    {
+      "type": "single",
+      "messages": ["להכניס מלא מונחים של 3 מילים מעולם הנוירולוגיה"]
+    },
+    {
       "type": "multi",
       "messages": [
         "זה בדיוק",
