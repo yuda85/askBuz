@@ -1,0 +1,39 @@
+.chat-toggle {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  width: var(--buz-toggle-size);
+  height: var(--buz-toggle-size);
+  border: none;
+  border-radius: 50%;
+  background: var(--buz-accent);
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--buz-shadow-lg);
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  z-index: 1000;
+
+  &:not(.open) {
+    animation: pulse 2s infinite;
+  }
+
+  &:hover {
+    background: var(--buz-accent-hover);
+    transform: scale(1.05);
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+
+  &.open {
+    background: var(--buz-bg-secondary);
+
+    &:hover {
+      background: var(--buz-bg-input);
+    }
+  }
+}

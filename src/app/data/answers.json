@@ -1,0 +1,147 @@
+{
+  "answers": [
+    {
+      "type": "single",
+      "messages": ["כן, בהחלט!"]
+    },
+    {
+      "type": "single",
+      "messages": ["לא, ממש לא."]
+    },
+    {
+      "type": "single",
+      "messages": ["אולי, צריך לחשוב על זה."]
+    },
+    {
+      "type": "single",
+      "messages": ["בטוח שכן!"]
+    },
+    {
+      "type": "single",
+      "messages": ["איזה אפס"]
+    },
+    {
+      "type": "single",
+      "messages": ["לא מומלץ."]
+    },
+    {
+      "type": "single",
+      "messages": ["טיפש"]
+    },
+    {
+      "type": "single",
+      "messages": ["ללא ספק!"]
+    },
+    {
+      "type": "single",
+      "messages": ["שקרן"]
+    },
+    {
+      "type": "single",
+      "messages": ["לא הייתי ממליץ."]
+    },
+    {
+      "type": "single",
+      "messages": ["עוד פעם עם הכושלאחותך??"]
+    },
+    {
+      "type": "single",
+      "messages": ["100 אחוז!"]
+    },
+    {
+      "type": "single",
+      "messages": ["אממממ... לא."]
+    },
+    {
+      "type": "single",
+      "messages": ["תלוי במזל שלך."]
+    },
+    {
+      "type": "multi",
+      "messages": [
+        "זה בדיוק",
+        "מה שהומו",
+        "היה אומר"
+      ]
+    },
+    {
+      "type": "multi",
+      "messages": [
+        "אתה לא רק טיפש",
+        "אתה גם שקרן"
+      ]
+    },
+    {
+      "type": "multi",
+      "messages": [
+        "כן",
+        "לא...",
+        "אולי",
+        "לא יודע",
+        "מה השאלה?"
+      ]
+    },
+    {
+      "type": "multi",
+      "messages": [
+        "הכושל",
+        "אחותך",
+        "בגבס"
+      ]
+    },
+    {
+      "type": "multi",
+      "messages": [
+        "שאלה טובה!",
+        "אבל התשובה היא לא.",
+        "סורי."
+      ]
+    },
+    {
+      "type": "multi",
+      "messages": [
+        "וואו, שאלה קשה...",
+        "מצד אחד כן...",
+        "מצד שני לא...",
+        "אני הולך על כן!"
+      ]
+    },
+    {
+      "type": "multi",
+      "messages": [
+        "הממ...",
+        "לא בטוח.",
+        "תשאל שוב מאוחר יותר."
+      ]
+    },
+    {
+      "type": "multi",
+      "messages": [
+        "אני צריך לחשוב על זה רגע...",
+        "...",
+        "התשובה היא: אולי!"
+      ]
+    },
+    {
+      "type": "multi",
+      "messages": [
+        "תראה...",
+        "זה לא פשוט לענות על זה.",
+        "אבל אם אני חייב לבחור...",
+        "אז לא."
+      ]
+    },
+    {
+      "type": "multi",
+      "messages": [
+        "אוף, שאלה מעניינת!",
+        "נראה לי שכן.",
+        "כן, בטוח שכן!"
+      ]
+    }
+  ],
+  "fallbackNotQuestion": "אחי, לא הבנתי, מה השאלה?",
+  "fallbackUnmatched": "לא הבנתי, נסה שוב",
+  "typingDelayMs": 1000,
+  "messageDelayMs": 1500
+}

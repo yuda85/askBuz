@@ -1,0 +1,3 @@
+<div class="message-bubble" [class.user]="message().sender === 'user'" [class.buz]="message().sender === 'buz'">
+  <span class="message-text">{{ message().text }}</span>
+</div>

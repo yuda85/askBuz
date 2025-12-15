@@ -1,0 +1,16 @@
+<div class="chat-messages buz-scrollbar" #messagesContainer>
+  @if (messages().length === 0 && !isTyping()) {
+    <div class="empty-state">
+      <span class="empty-icon">💬</span>
+      <p>שאל אותי משהו!</p>
+    </div>
+  }
+
+  @for (message of messages(); track message.id) {
+    <app-message-bubble [message]="message" />
+  }
+
+  @if (isTyping()) {
+    <app-typing-indicator />
+  }
+</div>

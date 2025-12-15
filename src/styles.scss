@@ -1,1 +1,134 @@
-/* You can add global styles to this file, and also import other style files */
+/* Buz Chat Application - Global Styles */
+
+:root {
+  /* WhatsApp-inspired dark theme colors */
+  --buz-bg-primary: #111b21;
+  --buz-bg-secondary: #202c33;
+  --buz-bg-header: #202c33;
+  --buz-bg-input: #2a3942;
+
+  --buz-text-primary: #e9edef;
+  --buz-text-secondary: #8696a0;
+  --buz-text-timestamp: #667781;
+
+  --buz-bubble-user: #005c4b;
+  --buz-bubble-buz: #202c33;
+  --buz-bubble-user-text: #e9edef;
+  --buz-bubble-buz-text: #e9edef;
+
+  --buz-accent: #00a884;
+  --buz-accent-hover: #06cf9c;
+
+  --buz-border-color: #2a3942;
+  --buz-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  --buz-shadow-lg: 0 4px 20px rgba(0, 0, 0, 0.4);
+
+  /* Sizing */
+  --buz-chat-width: 380px;
+  --buz-chat-height: 520px;
+  --buz-toggle-size: 60px;
+  --buz-border-radius: 16px;
+  --buz-bubble-radius: 8px;
+
+  /* Animation */
+  --buz-transition-speed: 0.3s;
+
+  /* Typography */
+  --buz-font-family: 'Assistant', 'Segoe UI', Tahoma, Arial, sans-serif;
+  --buz-font-size-base: 14px;
+  --buz-font-size-small: 12px;
+  --buz-font-size-header: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--buz-font-family);
+  background: var(--buz-bg-primary);
+  min-height: 100vh;
+}
+
+/* Scrollbar styling for chat */
+.buz-scrollbar {
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: var(--buz-border-color);
+    border-radius: 3px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: var(--buz-text-secondary);
+  }
+}
+
+/* RTL Support */
+.rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Message animations */
+@keyframes slideInMessage {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Typing indicator bounce animation */
+@keyframes typingBounce {
+  0%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-6px);
+  }
+}
+
+/* Pulse animation for toggle button */
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 168, 132, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 15px rgba(0, 168, 132, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 168, 132, 0);
+  }
+}

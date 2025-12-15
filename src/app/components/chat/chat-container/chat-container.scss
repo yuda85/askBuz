@@ -1,0 +1,28 @@
+.chat-widget-wrapper {
+  direction: rtl;
+}
+
+.chat-widget {
+  position: fixed;
+  bottom: 100px;
+  left: 24px;
+  width: var(--buz-chat-width);
+  height: var(--buz-chat-height);
+  background: var(--buz-bg-secondary);
+  border-radius: var(--buz-border-radius);
+  box-shadow: var(--buz-shadow-lg);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  z-index: 999;
+
+  // Responsive adjustments
+  @media (max-width: 450px) {
+    left: 12px;
+    right: 12px;
+    width: auto;
+    bottom: 90px;
+    height: calc(100vh - 120px);
+    max-height: 600px;
+  }
+}
